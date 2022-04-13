@@ -1,0 +1,572 @@
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+            vertical-align: baseline;
+        }
+        
+        .panel-top {
+            display: flex;
+            max-width: 100%;
+            /* height: 80px; */
+            border-radius: 8px;
+            background-color: #FFFFFF;
+            padding-bottom: 20px;
+        }
+        
+        .search {
+            padding-top: 30px;
+            margin: auto;
+        }
+        
+        form {
+            display: flex;
+            position: relative;
+            width: 581px;
+            margin: auto;
+            padding-bottom: 7.89px;
+            border-bottom: 1px solid #A8A8A8;
+        }
+        
+        .mag-glass {
+            color: hsl(0, 0%, 62%);
+        }
+        
+        form input:focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+        
+        input::placeholder {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        
+        .mail {
+            width: 14px;
+            /* height: 10px; */
+            margin-right: 30px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+        
+        .userpic {
+            margin-right: 81px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        
+        .userpic img {
+            width: 36px;
+            /* height: 36px; */
+            border-radius: 50px;
+        }
+        
+        .label-logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 144px;
+            height: 111px;
+            margin-left: 82.94px;
+            background-color: #FFFFFF;
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        .label-logo img {
+            width: 84px;
+            /* height: 80px; */
+            margin: 10px 30px 21px;
+        }
+        
+        body {
+            background-color: #F7F8FA;
+        }
+        
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            width: 304px;
+            /* height: 380px; */
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            margin-left: 80px;
+            margin-top: 50px;
+            padding: 25px;
+        }
+        
+        .recipes-img {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4.6px 9px;
+        }
+        
+        .image-gallery div {
+            /* width: 79px; */
+            /* height: 81px; */
+            cursor: pointer;
+        }
+        /* .image-gallery .recipe-1 {
+        width: 254px;
+        height: 150px; 
+        margin: 25px 25px 0px;
+    }
+    
+    .image-gallery div:nth-child(2),
+     :nth-child(5) {
+        margin-top: -18px;
+        margin-left: 25px;
+        margin-right: 4.5px;
+    }
+    
+    .image-gallery div:nth-child(3),
+     :nth-child(6) {
+        margin-top: -18px;
+        margin-left: 4.5px;
+        margin-right: 8px;
+    }
+    
+    .image-gallery div:nth-child(4),
+     :nth-child(7) {
+        margin-top: -18px;
+        margin-right: 25px;
+        position: relative;
+    } */
+        
+        .recipe-7 {
+            position: relative;
+        }
+        
+        .recipe-7 h3 {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            text-align: center;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #030F09;
+        }
+        
+        .recipe-7 img {
+            opacity: 0.3;
+        }
+        
+        .inform-block {
+            display: flex;
+        }
+        
+        main .recipe-block {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            margin-left: 20px;
+            margin-right: 80px;
+            width: 100%;
+            /* height: 380px; */
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: 25px;
+        }
+        
+        .recipe-block-top {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        .title-recipe h2 {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #030F09;
+        }
+        
+        .title-recipe {
+            display: block;
+            /* width: 382px; */
+            /* height: 64px; */
+            /* margin-top: 25px;
+        margin-left: 24px; */
+        }
+        
+        .button-edit button {
+            white-space: nowrap;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #30BE76;
+            background: #FFFFFF;
+            cursor: pointer;
+        }
+        /*.button-edit {
+         margin-top: 40px; 
+        margin-left: 50%;
+         height: 22px;
+    } */
+        
+        .button-start button {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            color: #FFFFFF;
+            background: #30BE76;
+            margin: auto;
+            cursor: pointer;
+            width: 160px;
+            height: 50px;
+            background: #30BE76;
+            border-radius: 8px;
+        }
+        
+        .button-start {
+            /* margin-top: 25px;
+        margin-left: 50px;
+        margin-right: 20px; */
+            height: 50px;
+            /* Тут оставил */
+        }
+        
+        .recipe-buttons {
+            align-items: center;
+            /* margin-top: 25px;
+        margin-right: 25px; */
+            display: flex;
+            gap: 48px;
+        }
+        
+        .recipe-line {
+            display: flex;
+            background: #E6E6E6;
+            width: 97%;
+            height: 2px;
+            /* Тут оставил */
+            margin: 15px auto 30px;
+        }
+        
+        .title-ingri {
+            width: 100%;
+            /* height: 22px; */
+            /* margin-top: -40px; */
+            /* margin-left: 25px; */
+        }
+        
+        .title-ingri h3 {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #030F09;
+        }
+        
+        .recipe-list {
+            margin-top: 23px;
+        }
+        
+        .recipe-list ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 130px;
+        }
+        
+        .list-ingri li {
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        /* .first-list li {
+        display: flex;
+        align-items: center;
+        Width: 300px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #030F09;
+        margin-top: 15px;
+    }
+    
+    .second-list li {
+        display: flex;
+        align-items: center;
+        Width: 300px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #030F09;
+        margin-top: 15px;
+    } */
+        
+        .list-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            /*Тут оставил*/
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            border-radius: 50%;
+        }
+        
+        .recipe-list {
+            display: flex;
+            flex-wrap: wrap;
+            /* width: 100%; */
+            /* height: 250px; */
+            /* margin-top: 0px;
+        margin-left: 25px; */
+        }
+        /* .first-half {
+        justify-content: flex-start;
+        width: 300px;
+        height: 180px; 
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    
+    .second-half {
+        justify-content: flex-start;
+        width: 386px;
+        height: 180px; 
+        margin-top: 20px;
+    } */
+        
+        .cooking {
+            display: flex;
+            padding: 25px;
+            margin-left: 404px;
+            margin-right: 80px;
+            margin-top: 20px;
+            background: #FFFFFF;
+            border-radius: 8px;
+        }
+        
+        .cooking-block {
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .cooking-block-body {
+            display: flex;
+        }
+        /*     
+    .title-cooking {
+        
+    } */
+        
+        .title-cooking h3 {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #030F09;
+        }
+        /* .cooking-list {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+        
+        .cooking-list ol {
+            margin-top: 32px;
+            margin-left: 32px;
+            counter-reset: num;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .cooking-list ol li {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #030F09;
+            position: relative;
+            counter-increment: num;
+        }
+        /* .cooking-list ol li:not(first-child) {
+        margin-top: 20px;
+    } */
+        
+        .cooking-list ol li::before {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: -35px;
+            width: 20px;
+            height: 20px;
+            color: #30BE76;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            border-radius: 50%;
+            content: counter(num);
+            border: 1px solid #30BE76;
+        }
+        
+        .cooking-list ol li:last-child {
+            /* без этого, 5-ый элемент в списке имеет отступ, откуда взялся и как убрать не разобрался */
+            margin-left: 0px;
+        }
+        
+        .cooking-video {
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+        
+        .cooking-video .video {
+            position: relative;
+        }
+        
+        .cooking-video .play {
+            position: absolute;
+            top: 100px;
+            left: 200px;
+            cursor: pointer;
+        }
+        
+        .addit-info {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 404px;
+            margin-right: 80px;
+            margin-bottom: 50px;
+            padding: 25px;
+            background: #FFFFFF;
+            border-radius: 8px;
+        }
+        
+        .info {
+            display: inline-block;
+            width: 100%;
+            /* height: 281px; */
+        }
+        /* .info-title {
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+         */
+        
+        .info-title h3 {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #030F09;
+        }
+        
+        .info-block {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30%;
+            /* justify-content: space-between; */
+        }
+        
+        .first-info {
+            flex-direction: column;
+        }
+        
+        .title-times,
+        .title-facts,
+        .title-tags {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #A8A8A8;
+        }
+        
+        .content-times,
+        .content-facts,
+        .content-tags {
+            word-wrap: break-word;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #030F09;
+        }
+        
+        .info-times,
+        .info-facts,
+        .info-tags {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .info-times {
+            margin-top: 30px;
+        }
+        
+        .info-facts {
+            margin-top: 30px;
+        }
+        
+        .content-facts ul {
+            list-style: none;
+            margin-left: 15px;
+        }
+        
+        .info-facts {
+            margin-top: 25px;
+        }
+        
+        .info-tags {
+            margin-top: 77px;
+        }
+        /* .content-facts {
+            margin-left: 3px;
+        } */
+        /* .content-facts ul li {
+            margin-top: 0px;
+        } */
+        /* /* .content-facts ul li:nth-child(5) {
+            /* без этого, элемент в списке имеет отступ, откуда взялся и как убрать не разобрался */
+        /*         margin-left: 0px;
+        } */
+        /*    .content-facts ul li:last-child {
+            /* без этого, элемент в списке имеет отступ, откуда взялся и как убрать не разобрался */
+        /*       margin-left: 0px;
+        }
+         */
+        /* .title-tags {
+            margin-top: 77px;
+        }
+        
+        .content-tags {
+            margin-top: 77px;
+        } */
+        /* .title-facts {
+            margin-top: 25px;
+        }
+        
+        .content-facts {
+            margin-top: 25px;
+        } */
